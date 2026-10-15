@@ -1,0 +1,7 @@
+[functions.process-reminders]
+verify_jwt = false
+entrypoint = "./functions/process-reminders/index.ts"
+
+[functions.send-sms-otp]
+verify_jwt = false
+entrypoint = "./functions/send-sms-otp/index.ts"
